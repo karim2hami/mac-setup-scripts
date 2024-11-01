@@ -15,20 +15,40 @@ echo "Installing applications and tools..."
 
 # Homebrew cask applications
 brew install --cask google-chrome
+brew install --cask firefox@developer-edition
+brew install --cask microsoft-edge
+brew install --cask arc
 brew install --cask raycast
 brew install --cask alt-tab
 brew install --cask bitwarden
+brew install --cask whatsapp
 brew install --cask microsoft-teams
+brew install --cask zoom
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
 brew install --cask warp
+brew install --cask postman
 brew install --cask fliqlo
 brew install --cask docker
+brew install --cask command-x
+brew install --cask cheatsheet
+brew install --cask the-unarchiver
+brew install --cask onyx
+brew install --cask raspberry-pi-imager
+brew install --cask stats
+brew install --cask imazing
+brew install --cask yubico-authenticator
+brew install --cask yubico-yubikey-manager
+brew install --cask zotero
+brew install --cask todoist
+brew install --cask spotify
+brew install --cask rustdesk
 
 # Homebrew packages
 brew install git
 brew install nvm
-brew install gh # Install GitHub CLI
+brew install jenv
+brew install gh
 
 # Install Oh My Zsh
 echo "Installing Oh My Zsh..."
@@ -40,28 +60,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 nvm install --lts
 
-# Set default browser to Chrome
-echo "Setting default browser to Google Chrome..."
-osascript -e 'tell application "System Preferences"
-    reveal anchor "defaultWebBrowser" of pane id "com.apple.preferences.general"
-end tell
-delay 2
-tell application "System Events"
-    tell process "System Preferences"
-        click pop up button 1 of tab group 1 of window "General"
-        delay 1
-        click menu item "Google Chrome" of menu 1 of pop up button 1 of tab group 1 of window "General"
-    end tell
-end tell'
-
 # Configure Git
 echo "Configuring Git..."
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-
-# Configure system settings
-echo "Removing dock auto delay..."
-defaults write com.apple.dock autohide-delay -float 0
-killall Dock
+git config --global user.name "Karim Touhami"
+git config --global user.email "developer.karimtouhami@gmail.com"
 
 echo "Setup complete!"
