@@ -43,6 +43,8 @@ brew install --cask zotero
 brew install --cask todoist
 brew install --cask spotify
 brew install --cask rustdesk
+brew install --cask threema
+brew install --cask balenaetcher
 
 # Homebrew packages
 brew install git
@@ -50,6 +52,7 @@ brew install nvm
 brew install jenv
 brew install gh
 brew install mas
+brew install ollama
 
 # Install Oh My Zsh
 echo "Installing Oh My Zsh..."
