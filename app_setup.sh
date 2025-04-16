@@ -49,6 +49,7 @@ brew install git
 brew install nvm
 brew install jenv
 brew install gh
+brew install mas
 
 # Install Oh My Zsh
 echo "Installing Oh My Zsh..."
