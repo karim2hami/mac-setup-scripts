@@ -45,6 +45,7 @@ brew install --cask spotify
 brew install --cask rustdesk
 brew install --cask threema
 brew install --cask balenaetcher
+brew install --cask keyclu
 
 # Homebrew packages
 brew install git
