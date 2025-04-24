@@ -46,6 +46,7 @@ brew install --cask rustdesk
 brew install --cask threema
 brew install --cask balenaetcher
 brew install --cask keyclu
+brew install --cask cleanshot
 
 # Homebrew packages
 brew install git
