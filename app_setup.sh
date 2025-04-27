@@ -47,6 +47,7 @@ brew install --cask threema
 brew install --cask balenaetcher
 brew install --cask keyclu
 brew install --cask cleanshot
+brew install --cask thunderbird
 
 # Homebrew packages
 brew install git
