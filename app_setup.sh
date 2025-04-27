@@ -48,6 +48,7 @@ brew install --cask balenaetcher
 brew install --cask keyclu
 brew install --cask cleanshot
 brew install --cask thunderbird
+brew install --cask orbstack
 
 # Homebrew packages
 brew install git
