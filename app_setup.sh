@@ -57,6 +57,7 @@ brew install jenv
 brew install gh
 brew install mas
 brew install ollama
+brew install mole
 
 # Install Oh My Zsh
 echo "Installing Oh My Zsh..."
